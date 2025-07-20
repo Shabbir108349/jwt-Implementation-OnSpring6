@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: jwtImplementation
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database : journaldb31
