@@ -25,7 +25,7 @@ public class JwtUtils {
                 .add(claims)
                 .subject(username)
                 .issuedAt(new Date(System.currentTimeMillis()))
-                .expiration(new Date(System.currentTimeMillis()+ 1000*60*5))
+                .expiration(new Date(System.currentTimeMillis()+ 1000*60))
                 .and()
                 .header().empty().add("type","jwt")
                 .and()
